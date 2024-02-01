@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\user\Desktop\form lalit\style.css">
+  <title>User Registration Form</title>
+</head>
+<body>
+  <div class="container">
+    <form id="registrationForm">
+      <h2>User Registration</h2>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="contact">Contact No.:</label>
+      <input type="tel" id="contact" name="contact" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+
+      <label for="pincode">Pin Code:</label>
+      <input type="text" id="pincode" name="pincode" required>
+
+      <label for="graduation">Graduation:</label>
+      <input type="text" id="graduation" name="graduation" required>
+
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
